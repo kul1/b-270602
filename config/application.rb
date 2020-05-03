@@ -31,7 +31,9 @@ module B270602
     end
 
     # config time zone
-    # config.time_zone = "Central Time (US & Canada)"
+    config.time_zone = "Central Time (US & Canada)"
+    config.autoload_paths += %W(#{Rails.root}/app/controllers/concerns) 
+
 
     # gmail config
     # config.action_mailer.delivery_method = :smtp

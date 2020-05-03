@@ -9,7 +9,7 @@ GIT
 PATH
   remote: /Users/kul/mygem/jinda
   specs:
-    jinda (0.5.0)
+    jinda (0.5.1)
 
 GEM
   remote: https://rubygems.org/
